@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { _ } from '@/i18n';
 	import { onMount } from 'svelte';
-	export let text: string;
+	export let key: string;
 
 	type Item = {
 		isVar: Boolean;
@@ -20,12 +20,14 @@
 				if (c.dataset.i18nKey !== slotName) {
 					c.remove();
 				}
+				delete c.dataset.i18nKey;
 			});
+			slot.replaceWith(...slot.children);
 		});
 	};
 
 	onMount(() => {
-		var testString = $_(`${text}`);
+		var testString = $_(`${key}`);
 		var reBrackets = /\{(.*?)\}/g;
 		var listOfText = [];
 		var found;

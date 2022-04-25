@@ -3,8 +3,9 @@
 	import I18nSlots from '$lib/I18nSlots.svelte';
 </script>
 
-<!-- <br />
-<I18nSlots text="string">
+<h1>Single Variable</h1>
+<br />
+<I18nSlots key="string">
 	<a
 		data-i18n-key="slot1"
 		href="http://github.com/neiwad"
@@ -14,10 +15,10 @@
 	</a>
 </I18nSlots>
 <br />
-<br /> -->
-<h1>Long String</h1>
 <br />
-<I18nSlots text="long.string">
+<h1>Multiple Variables</h1>
+<br />
+<I18nSlots key="long.string">
 	<span data-i18n-key="long" style="border: 2px solid black; inline; padding: 10px 20px;">
 		{$_('long.long')}
 	</span>
@@ -28,3 +29,4 @@
 		{$_('long.cheers')}
 	</span>
 </I18nSlots>
+<br />
