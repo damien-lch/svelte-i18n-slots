@@ -31,9 +31,9 @@ import { I18nSlots } from "@neiwad/svelte-i18n-slots"
 ```js
 <I18nSlots text="string">
 	<a
-		data-i18n-key="slot1"
-		href="http://github.com/neiwad"
-		style="border: 2px solid black; inline; padding: 10px 20px;"
+    data-i18n-key="slot1"
+    href="http://github.com/neiwad"
+    style="border: 2px solid black; inline; padding: 10px 20px;"
 	>
 		{$_('slotText')}
 	</a>
