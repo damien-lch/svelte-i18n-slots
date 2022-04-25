@@ -15,6 +15,7 @@
 </I18nSlots>
 <br />
 <br /> -->
+<h1>Long String</h1>
 <br />
 <I18nSlots text="long.string">
 	<span data-i18n-key="long" style="border: 2px solid black; inline; padding: 10px 20px;">
