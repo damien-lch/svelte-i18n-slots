@@ -17,7 +17,7 @@ yarn add @neiwad/svelte-i18n-slots
 - [ ] svelte-i18n installed
 - [ ] svelte-i18n variable _ available at "@/i18n"
 # Example
-## I18n
+## I18n Configuration
 ```js
 addMessages('en', {
 	string: 'This is example of how to use {slot1} as i18n variable.',
