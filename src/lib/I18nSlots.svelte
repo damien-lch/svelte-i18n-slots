@@ -39,8 +39,8 @@
 				cutted.push({ isVar: true, name: text });
 				cutted.push({ isVar: false, text: testString.split(`{${text}}`)[1] });
 			} else {
-				const toCut = cutted[index + 1];
-				cutted[index + 1] = { isVar: false, text: toCut!.text!.split(`{${text}}`)[0] };
+				const toCut = cutted[cutted.length - 1];
+				cutted[cutted.length - 1] = { isVar: false, text: toCut!.text!.split(`{${text}}`)[0] };
 				cutted.push({ isVar: true, name: text });
 				cutted.push({ isVar: false, text: toCut!.text!.split(`{${text}}`)[1] });
 			}

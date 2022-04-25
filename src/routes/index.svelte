@@ -3,9 +3,27 @@
 	import I18nSlots from '$lib/I18nSlots.svelte';
 </script>
 
+<!-- <br />
 <I18nSlots text="string">
-	<a class="link" href="login" data-i18n-key="example">
-		{$_('example')}
+	<a
+		data-i18n-key="slot1"
+		href="http://github.com/neiwad"
+		style="border: 2px solid black; inline; padding: 10px 20px;"
+	>
+		{$_('slotText')}
 	</a>
-	<a class="link" href="login" data-i18n-key="nested"> {$_('nested')}</a>
+</I18nSlots>
+<br />
+<br /> -->
+<br />
+<I18nSlots text="long.string">
+	<span data-i18n-key="long" style="border: 2px solid black; inline; padding: 10px 20px;">
+		{$_('long.long')}
+	</span>
+	<span data-i18n-key="slot" style="border: 2px solid black; inline; padding: 10px 20px;">
+		{$_('long.slot')}
+	</span>
+	<span data-i18n-key="cheers" style="border: 2px solid black; inline; padding: 10px 20px;">
+		{$_('long.cheers')}
+	</span>
 </I18nSlots>
