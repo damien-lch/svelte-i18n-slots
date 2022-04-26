@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { addMessages, init, locale, _ } from 'svelte-i18n';
+	import { addMessages, init, _ } from 'svelte-i18n';
 	import I18nSlots from '$lib/I18nSlots.svelte';
 	import { onMount } from 'svelte';
 

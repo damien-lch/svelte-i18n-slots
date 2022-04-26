@@ -12,6 +12,12 @@
 	},
 	"license": "MIT",
 	"author": "neiwad <hello@neiwad.dev> (https://neiwad.dev)",
+	"keywords": [
+		"i18n",
+		"svelte",
+		"slots",
+		"svelte-i18n"
+	],
 	"scripts": {
 		"dev": "svelte-kit dev --port 3002",
 		"build": "svelte-kit build",
@@ -39,8 +45,7 @@
 		"svelte-preprocess": "^4.10.6",
 		"svelte2tsx": "^0.5.9",
 		"tslib": "^2.4.0",
-		"typescript": "~4.6.3",
-		"path": "^0.12.7"
+		"typescript": "~4.6.3"
 	},
 	"type": "module"
 }

@@ -10,6 +10,7 @@
 	};
 
 	let cutted: Array<Item> = [];
+	let ready = false;
 
 	const processSlots = () => {
 		const slots = [...document.getElementsByClassName('slot')] as Array<HTMLElement>;
@@ -27,6 +28,7 @@
 	};
 
 	onMount(() => {
+		ready = false;
 		var testString = $_(`${key}`);
 		var reBrackets = /\{(.*?)\}/g;
 		var listOfText = [];
@@ -34,6 +36,7 @@
 		while ((found = reBrackets.exec(testString))) {
 			listOfText.push(found[1]);
 		}
+		cutted = [];
 
 		listOfText.forEach((text, index) => {
 			if (index === 0) {
@@ -48,19 +51,21 @@
 			}
 		});
 		cutted = cutted.filter((f) => f);
-
+		ready = true;
 		setTimeout(() => {
 			processSlots();
 		});
 	});
 </script>
 
-{#each cutted as cut}
-	{#if cut.isVar}
-		<span class="slot" data-i18n-key={cut.name}>
-			<slot />
-		</span>
-	{:else}
-		{cut.text}
-	{/if}
-{/each}
+{#if ready}
+	{#each cutted as cut}
+		{#if cut.isVar}
+			<span class="slot" data-i18n-key={cut.name}>
+				<slot />
+			</span>
+		{:else}
+			{cut.text}
+		{/if}
+	{/each}
+{/if}
