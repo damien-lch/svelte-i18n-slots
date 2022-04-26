@@ -5,6 +5,13 @@
 		"type": "git",
 		"url": "https://github.com/neiwad/svelte-i18n-slots"
 	},
+	"homepage": "https://github.com/neiwad/svelte-i18n-slots",
+	"bugs": {
+		"url": "https://github.com/neiwad/svelte-i18n-slots/issues",
+		"email": "hello@neiwad.dev"
+	},
+	"license": "MIT",
+	"author": "neiwad <hello@neiwad.dev> (https://neiwad.dev)",
 	"scripts": {
 		"dev": "svelte-kit dev --port 3002",
 		"build": "svelte-kit build",
