@@ -1,6 +1,6 @@
 {
-	"name": "svelte-i18n-slots",
-	"version": "0.0.1",
+	"name": "@neiwad/svelte-i18n-slots",
+	"version": "0.0.0",
 	"scripts": {
 		"dev": "svelte-kit dev --port 3002",
 		"build": "svelte-kit build",
