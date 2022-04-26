@@ -22,7 +22,7 @@
 		"dev": "svelte-kit dev --port 3002",
 		"build": "svelte-kit build",
 		"package": "svelte-kit package",
-		"publish": "npm publich ./package --access public",
+		"publish": "npm publish ./package --access public",
 		"preview": "svelte-kit preview",
 		"prepare": "svelte-kit sync",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
