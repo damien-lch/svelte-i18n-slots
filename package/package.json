@@ -1,6 +1,17 @@
 {
   "name": "@neiwad/svelte-i18n-slots",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neiwad/svelte-i18n-slots"
+  },
+  "homepage": "https://github.com/neiwad/svelte-i18n-slots",
+  "bugs": {
+    "url": "https://github.com/neiwad/svelte-i18n-slots/issues",
+    "email": "hello@neiwad.dev"
+  },
+  "license": "MIT",
+  "author": "neiwad <hello@neiwad.dev> (https://neiwad.dev)",
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
@@ -17,12 +28,10 @@
     "svelte-preprocess": "^4.10.6",
     "svelte2tsx": "^0.5.9",
     "tslib": "^2.4.0",
-    "typescript": "~4.6.3"
-  },
-  "type": "module",
-  "dependencies": {
+    "typescript": "~4.6.3",
     "path": "^0.12.7"
   },
+  "type": "module",
   "exports": {
     "./package.json": "./package.json",
     "./I18nSlots.svelte": "./I18nSlots.svelte",

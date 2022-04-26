@@ -13,8 +13,7 @@ const config = {
 		vite: {
 			resolve: {
 				alias: {
-					'$lib': path.resolve("./src/lib"),
-					'@': path.resolve("./src")
+					'$lib': path.resolve("./src/lib")
 				}
 			},
 		}

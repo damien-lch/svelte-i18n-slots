@@ -1,4 +1,4 @@
-<script>import { _ } from '@/i18n';
+<script>import { _ } from 'svelte-i18n';
 import { onMount } from 'svelte';
 export let key;
 let cutted = [];

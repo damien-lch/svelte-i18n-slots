@@ -15,7 +15,6 @@
 		"target": "es2020",
 		"baseUrl": "./",
 		"paths": {
-			"@/*": ["./src/*"],
 			"$lib/*": ["./src/lib/*"]
 		}
 	}

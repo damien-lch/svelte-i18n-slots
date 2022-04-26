@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { _ } from '@/i18n';
+	import { _ } from 'svelte-i18n';
 	import { onMount } from 'svelte';
 	export let key: string;
 

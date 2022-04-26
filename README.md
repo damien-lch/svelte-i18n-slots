@@ -5,8 +5,7 @@
 pnpm install @neiwad/svelte-i18n-slots
 ```
 # Requirements
-- [ ] svelte-i18n installed
-- [ ] svelte-i18n variable _ available at "@/i18n"
+- 🌍 svelte-i18n installed
 # Example
 ### I18n Configuration
 ```js
