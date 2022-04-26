@@ -4,10 +4,10 @@
   },
   "1 debug pnpm:package-manifest": {
     "initial": {
-      "name": "svelte-i18n-slots",
+      "name": "@neiwad/svelte-i18n-slots",
       "version": "0.0.1",
       "scripts": {
-        "dev": "svelte-kit dev",
+        "dev": "svelte-kit dev --port 3002",
         "build": "svelte-kit build",
         "package": "svelte-kit package",
         "preview": "svelte-kit preview",
@@ -20,18 +20,21 @@
       "devDependencies": {
         "@sveltejs/adapter-auto": "next",
         "@sveltejs/kit": "next",
-        "@typescript-eslint/eslint-plugin": "^5.10.1",
-        "@typescript-eslint/parser": "^5.10.1",
-        "eslint": "^7.32.0",
-        "eslint-config-prettier": "^8.3.0",
-        "eslint-plugin-svelte3": "^3.2.1",
-        "prettier": "^2.5.1",
-        "prettier-plugin-svelte": "^2.5.0",
-        "svelte": "^3.44.0",
-        "svelte-check": "^2.2.6",
-        "svelte-preprocess": "^4.10.1",
-        "tslib": "^2.3.1",
-        "typescript": "~4.6.2"
+        "@typescript-eslint/eslint-plugin": "^5.21.0",
+        "@typescript-eslint/parser": "^5.21.0",
+        "eslint": "^8.14.0",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-svelte3": "^3.4.1",
+        "prettier": "^2.6.2",
+        "prettier-plugin-svelte": "^2.7.0",
+        "svelte": "^3.47.0",
+        "svelte-check": "^2.7.0",
+        "svelte-i18n": "^3.4.0",
+        "svelte-preprocess": "^4.10.6",
+        "svelte2tsx": "^0.5.9",
+        "tslib": "^2.4.0",
+        "typescript": "~4.6.3",
+        "path": "^0.12.7"
       },
       "type": "module"
     },
@@ -47,149 +50,169 @@
     "stage": "resolution_started"
   },
   "4 debug pnpm:_dependency_resolved": {
-    "resolution": "registry.npmjs.org/tslib/2.4.0",
+    "resolution": "registry.npmjs.org/@typescript-eslint/eslint-plugin/5.21.0",
     "wanted": {
       "dependentId": ".",
-      "name": "tslib",
-      "rawSpec": "^2.3.1"
+      "name": "@typescript-eslint/eslint-plugin",
+      "rawSpec": "^5.21.0"
     }
   },
-  "5 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/tslib/2.4.0",
-    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
-    "status": "resolved"
+  "5 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/parser/5.21.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@typescript-eslint/parser",
+      "rawSpec": "^5.21.0"
+    }
   },
   "6 debug pnpm:_dependency_resolved": {
-    "resolution": "registry.npmjs.org/prettier/2.6.2",
+    "resolution": "registry.npmjs.org/eslint/8.14.0",
     "wanted": {
       "dependentId": ".",
-      "name": "prettier",
-      "rawSpec": "^2.5.1"
+      "name": "eslint",
+      "rawSpec": "^8.14.0"
     }
   },
-  "7 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/prettier/2.6.2",
-    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
-    "status": "resolved"
-  },
-  "8 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/prettier/2.6.2",
-    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
-    "status": "found_in_store"
-  },
-  "9 debug pnpm:_dependency_resolved": {
+  "7 debug pnpm:_dependency_resolved": {
     "resolution": "registry.npmjs.org/eslint-config-prettier/8.5.0",
     "wanted": {
       "dependentId": ".",
       "name": "eslint-config-prettier",
-      "rawSpec": "^8.3.0"
+      "rawSpec": "^8.5.0"
     }
   },
-  "10 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/eslint-config-prettier/8.5.0",
-    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
-    "status": "resolved"
-  },
-  "11 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/eslint-config-prettier/8.5.0",
-    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
-    "status": "found_in_store"
-  },
-  "12 debug pnpm:fetching-progress": {
-    "attempt": 1,
-    "packageId": "registry.npmjs.org/tslib/2.4.0",
-    "size": 10089,
-    "status": "started"
-  },
-  "13 debug pnpm:_dependency_resolved": {
-    "resolution": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.38",
-    "wanted": {
-      "dependentId": ".",
-      "name": "@sveltejs/adapter-auto",
-      "rawSpec": "next"
-    }
-  },
-  "14 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.38",
-    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
-    "status": "resolved"
-  },
-  "15 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/tslib/2.4.0",
-    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
-    "status": "fetched"
-  },
-  "16 debug pnpm:_dependency_resolved": {
-    "resolution": "registry.npmjs.org/eslint/7.32.0",
-    "wanted": {
-      "dependentId": ".",
-      "name": "eslint",
-      "rawSpec": "^7.32.0"
-    }
-  },
-  "17 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/eslint/7.32.0",
-    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
-    "status": "resolved"
-  },
-  "18 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/eslint/7.32.0",
-    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
-    "status": "found_in_store"
-  },
-  "19 debug pnpm:fetching-progress": {
-    "attempt": 1,
-    "packageId": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.38",
-    "size": 2444,
-    "status": "started"
-  },
-  "20 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.38",
-    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
-    "status": "fetched"
-  },
-  "21 debug pnpm:update-check": {
-    "currentVersion": "6.32.6",
-    "latestVersion": "6.32.10"
-  },
-  "22 debug pnpm:_dependency_resolved": {
-    "resolution": "registry.npmjs.org/@sveltejs/kit/1.0.0-next.320",
-    "wanted": {
-      "dependentId": ".",
-      "name": "@sveltejs/kit",
-      "rawSpec": "next"
-    }
-  },
-  "23 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/@sveltejs/kit/1.0.0-next.320",
-    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
-    "status": "resolved"
-  },
-  "24 debug pnpm:_dependency_resolved": {
-    "resolution": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
-    "wanted": {
-      "dependentId": ".",
-      "name": "prettier-plugin-svelte",
-      "rawSpec": "^2.5.0"
-    }
-  },
-  "25 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
-    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
-    "status": "resolved"
-  },
-  "26 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
-    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
-    "status": "found_in_store"
-  },
-  "27 debug pnpm:_dependency_resolved": {
+  "8 debug pnpm:_dependency_resolved": {
     "resolution": "registry.npmjs.org/eslint-plugin-svelte3/3.4.1",
     "wanted": {
       "dependentId": ".",
       "name": "eslint-plugin-svelte3",
-      "rawSpec": "^3.2.1"
+      "rawSpec": "^3.4.1"
     }
+  },
+  "9 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prettier/2.6.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "prettier",
+      "rawSpec": "^2.6.2"
+    }
+  },
+  "10 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "prettier-plugin-svelte",
+      "rawSpec": "^2.7.0"
+    }
+  },
+  "11 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte/3.47.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte",
+      "rawSpec": "^3.47.0"
+    }
+  },
+  "12 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-check/2.7.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte-check",
+      "rawSpec": "^2.7.0"
+    }
+  },
+  "13 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-i18n/3.4.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte-i18n",
+      "rawSpec": "^3.4.0"
+    }
+  },
+  "14 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-preprocess/4.10.6",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte-preprocess",
+      "rawSpec": "^4.10.6"
+    }
+  },
+  "15 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte2tsx/0.5.9",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte2tsx",
+      "rawSpec": "^0.5.9"
+    }
+  },
+  "16 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tslib/2.4.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "tslib",
+      "rawSpec": "^2.4.0"
+    }
+  },
+  "17 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/typescript/4.6.3",
+    "wanted": {
+      "dependentId": ".",
+      "name": "typescript",
+      "rawSpec": "~4.6.3"
+    }
+  },
+  "18 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/path/0.12.7",
+    "wanted": {
+      "dependentId": ".",
+      "name": "path",
+      "rawSpec": "^0.12.7"
+    }
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/parser/5.21.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "20 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/parser/5.21.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint/8.14.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "22 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint/8.14.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "23 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/eslint-plugin/5.21.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "24 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/eslint-plugin/5.21.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "25 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-config-prettier/8.5.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "26 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-config-prettier/8.5.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "27 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-plugin-svelte3/3.4.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
   },
   "28 debug pnpm:progress": {
     "packageId": "registry.npmjs.org/eslint-plugin-svelte3/3.4.1",
@@ -197,72 +220,2107 @@
     "status": "resolved"
   },
   "29 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/eslint-plugin-svelte3/3.4.1",
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
     "requester": "/Users/damien/Desktop/svelte-i18n-slots",
     "status": "found_in_store"
   },
-  "30 debug pnpm:fetching-progress": {
-    "attempt": 1,
-    "packageId": "registry.npmjs.org/@sveltejs/kit/1.0.0-next.320",
-    "size": 506397,
-    "status": "started"
+  "30 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
   },
   "31 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/@sveltejs/kit/1.0.0-next.320",
+    "packageId": "registry.npmjs.org/prettier/2.6.2",
     "requester": "/Users/damien/Desktop/svelte-i18n-slots",
-    "status": "fetched"
+    "status": "found_in_store"
   },
-  "32 debug pnpm:_dependency_resolved": {
-    "resolution": "registry.npmjs.org/svelte-check/2.7.0",
-    "wanted": {
-      "dependentId": ".",
-      "name": "svelte-check",
-      "rawSpec": "^2.2.6"
-    }
+  "32 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier/2.6.2",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
   },
   "33 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/svelte-check/2.7.0",
+    "packageId": "registry.npmjs.org/svelte/3.47.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "34 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/3.47.0",
     "requester": "/Users/damien/Desktop/svelte-i18n-slots",
     "status": "resolved"
-  },
-  "34 debug pnpm:_dependency_resolved": {
-    "resolution": "registry.npmjs.org/svelte-preprocess/4.10.6",
-    "wanted": {
-      "dependentId": ".",
-      "name": "svelte-preprocess",
-      "rawSpec": "^4.10.1"
-    }
   },
   "35 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/svelte-preprocess/4.10.6",
+    "packageId": "registry.npmjs.org/svelte-check/2.7.0",
     "requester": "/Users/damien/Desktop/svelte-i18n-slots",
-    "status": "resolved"
+    "status": "found_in_store"
   },
   "36 debug pnpm:progress": {
     "packageId": "registry.npmjs.org/svelte-check/2.7.0",
     "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "37 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-i18n/3.4.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
     "status": "found_in_store"
   },
-  "37 warn pnpm:install-check": {
-    "message": "Unsupported engine for registry.npmjs.org/@typescript-eslint/parser/5.20.0: wanted: {\"node\":\"^12.22.0 || ^14.17.0 || >=16.0.0\"} (current: {\"node\":\"v15.14.0\",\"pnpm\":\"6.32.6\"})",
+  "38 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-i18n/3.4.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "39 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-preprocess/4.10.6",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "40 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-preprocess/4.10.6",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "41 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.4.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "42 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.4.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "43 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte2tsx/0.5.9",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "44 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte2tsx/0.5.9",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "45 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/path/0.12.7",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "46 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/path/0.12.7",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "47 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/typescript/4.6.3",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "48 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/typescript/4.6.3",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "49 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.39",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@sveltejs/adapter-auto",
+      "rawSpec": "next"
+    }
+  },
+  "50 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.39",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "51 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.39",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "52 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@sveltejs/kit/1.0.0-next.321",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@sveltejs/kit",
+      "rawSpec": "next"
+    }
+  },
+  "53 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/kit/1.0.0-next.321",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "54 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/scope-manager/5.21.0",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/parser/5.21.0",
+      "name": "@typescript-eslint/scope-manager",
+      "rawSpec": "5.21.0"
+    }
+  },
+  "55 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/types/5.21.0",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/parser/5.21.0",
+      "name": "@typescript-eslint/types",
+      "rawSpec": "5.21.0"
+    }
+  },
+  "56 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/typescript-estree/5.21.0",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/parser/5.21.0",
+      "name": "@typescript-eslint/typescript-estree",
+      "rawSpec": "5.21.0"
+    }
+  },
+  "57 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/debug/4.3.4",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/parser/5.21.0",
+      "name": "debug",
+      "rawSpec": "^4.3.2"
+    }
+  },
+  "58 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@eslint/eslintrc/1.2.2",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "@eslint/eslintrc",
+      "rawSpec": "^1.2.2"
+    }
+  },
+  "59 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@humanwhocodes/config-array/0.9.5",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "@humanwhocodes/config-array",
+      "rawSpec": "^0.9.2"
+    }
+  },
+  "60 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ajv/6.12.6",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "ajv",
+      "rawSpec": "^6.10.0"
+    }
+  },
+  "61 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/chalk/4.1.2",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "chalk",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "62 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/cross-spawn/7.0.3",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "cross-spawn",
+      "rawSpec": "^7.0.2"
+    }
+  },
+  "63 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/debug/4.3.4",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "debug",
+      "rawSpec": "^4.3.2"
+    }
+  },
+  "64 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/doctrine/3.0.0",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "doctrine",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "65 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/escape-string-regexp/4.0.0",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "escape-string-regexp",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "66 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-scope/7.1.1",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "eslint-scope",
+      "rawSpec": "^7.1.1"
+    }
+  },
+  "67 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-utils/3.0.0",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "eslint-utils",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "68 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-visitor-keys/3.3.0",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "eslint-visitor-keys",
+      "rawSpec": "^3.3.0"
+    }
+  },
+  "69 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/espree/9.3.1",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "espree",
+      "rawSpec": "^9.3.1"
+    }
+  },
+  "70 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/esquery/1.4.0",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "esquery",
+      "rawSpec": "^1.4.0"
+    }
+  },
+  "71 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/esutils/2.0.3",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "esutils",
+      "rawSpec": "^2.0.2"
+    }
+  },
+  "72 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fast-deep-equal/3.1.3",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "fast-deep-equal",
+      "rawSpec": "^3.1.3"
+    }
+  },
+  "73 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/file-entry-cache/6.0.1",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "file-entry-cache",
+      "rawSpec": "^6.0.1"
+    }
+  },
+  "74 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/functional-red-black-tree/1.0.1",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "functional-red-black-tree",
+      "rawSpec": "^1.0.1"
+    }
+  },
+  "75 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/glob-parent/6.0.2",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "glob-parent",
+      "rawSpec": "^6.0.1"
+    }
+  },
+  "76 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/globals/13.13.0",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "globals",
+      "rawSpec": "^13.6.0"
+    }
+  },
+  "77 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ignore/5.2.0",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "ignore",
+      "rawSpec": "^5.2.0"
+    }
+  },
+  "78 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/import-fresh/3.3.0",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "import-fresh",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "79 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/imurmurhash/0.1.4",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "imurmurhash",
+      "rawSpec": "^0.1.4"
+    }
+  },
+  "80 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-glob/4.0.3",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "is-glob",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "81 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/js-yaml/4.1.0",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "js-yaml",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "82 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/json-stable-stringify-without-jsonify/1.0.1",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "json-stable-stringify-without-jsonify",
+      "rawSpec": "^1.0.1"
+    }
+  },
+  "83 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/levn/0.4.1",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "levn",
+      "rawSpec": "^0.4.1"
+    }
+  },
+  "84 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/lodash.merge/4.6.2",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "lodash.merge",
+      "rawSpec": "^4.6.2"
+    }
+  },
+  "85 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/minimatch/3.1.2",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "minimatch",
+      "rawSpec": "^3.0.4"
+    }
+  },
+  "86 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/natural-compare/1.4.0",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "natural-compare",
+      "rawSpec": "^1.4.0"
+    }
+  },
+  "87 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/optionator/0.9.1",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "optionator",
+      "rawSpec": "^0.9.1"
+    }
+  },
+  "88 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/regexpp/3.2.0",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "regexpp",
+      "rawSpec": "^3.2.0"
+    }
+  },
+  "89 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/strip-ansi/6.0.1",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "strip-ansi",
+      "rawSpec": "^6.0.1"
+    }
+  },
+  "90 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/strip-json-comments/3.1.1",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "strip-json-comments",
+      "rawSpec": "^3.1.0"
+    }
+  },
+  "91 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/text-table/0.2.0",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "text-table",
+      "rawSpec": "^0.2.0"
+    }
+  },
+  "92 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/v8-compile-cache/2.3.0",
+    "wanted": {
+      "dependentId": "/eslint/8.14.0",
+      "name": "v8-compile-cache",
+      "rawSpec": "^2.0.3"
+    }
+  },
+  "93 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/scope-manager/5.21.0",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/eslint-plugin/5.21.0",
+      "name": "@typescript-eslint/scope-manager",
+      "rawSpec": "5.21.0"
+    }
+  },
+  "94 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/type-utils/5.21.0",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/eslint-plugin/5.21.0",
+      "name": "@typescript-eslint/type-utils",
+      "rawSpec": "5.21.0"
+    }
+  },
+  "95 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/utils/5.21.0",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/eslint-plugin/5.21.0",
+      "name": "@typescript-eslint/utils",
+      "rawSpec": "5.21.0"
+    }
+  },
+  "96 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/debug/4.3.4",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/eslint-plugin/5.21.0",
+      "name": "debug",
+      "rawSpec": "^4.3.2"
+    }
+  },
+  "97 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/functional-red-black-tree/1.0.1",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/eslint-plugin/5.21.0",
+      "name": "functional-red-black-tree",
+      "rawSpec": "^1.0.1"
+    }
+  },
+  "98 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ignore/5.2.0",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/eslint-plugin/5.21.0",
+      "name": "ignore",
+      "rawSpec": "^5.1.8"
+    }
+  },
+  "99 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/regexpp/3.2.0",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/eslint-plugin/5.21.0",
+      "name": "regexpp",
+      "rawSpec": "^3.2.0"
+    }
+  },
+  "100 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/semver/7.3.7",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/eslint-plugin/5.21.0",
+      "name": "semver",
+      "rawSpec": "^7.3.5"
+    }
+  },
+  "101 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tsutils/3.21.0",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/eslint-plugin/5.21.0",
+      "name": "tsutils",
+      "rawSpec": "^3.21.0"
+    }
+  },
+  "102 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/picocolors/1.0.0",
+    "wanted": {
+      "dependentId": "/svelte-check/2.7.0",
+      "name": "picocolors",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "103 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/chokidar/3.5.3",
+    "wanted": {
+      "dependentId": "/svelte-check/2.7.0",
+      "name": "chokidar",
+      "rawSpec": "^3.4.1"
+    }
+  },
+  "104 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fast-glob/3.2.11",
+    "wanted": {
+      "dependentId": "/svelte-check/2.7.0",
+      "name": "fast-glob",
+      "rawSpec": "^3.2.7"
+    }
+  },
+  "105 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/import-fresh/3.3.0",
+    "wanted": {
+      "dependentId": "/svelte-check/2.7.0",
+      "name": "import-fresh",
+      "rawSpec": "^3.2.1"
+    }
+  },
+  "106 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/sade/1.8.1",
+    "wanted": {
+      "dependentId": "/svelte-check/2.7.0",
+      "name": "sade",
+      "rawSpec": "^1.7.4"
+    }
+  },
+  "107 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/source-map/0.7.3",
+    "wanted": {
+      "dependentId": "/svelte-check/2.7.0",
+      "name": "source-map",
+      "rawSpec": "^0.7.3"
+    }
+  },
+  "108 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-preprocess/4.10.6",
+    "wanted": {
+      "dependentId": "/svelte-check/2.7.0",
+      "name": "svelte-preprocess",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "109 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/typescript/4.6.3",
+    "wanted": {
+      "dependentId": "/svelte-check/2.7.0",
+      "name": "typescript",
+      "rawSpec": "*"
+    }
+  },
+  "110 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/deepmerge/4.2.2",
+    "wanted": {
+      "dependentId": "/svelte-i18n/3.4.0",
+      "name": "deepmerge",
+      "rawSpec": "^4.2.2"
+    }
+  },
+  "111 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/estree-walker/2.0.2",
+    "wanted": {
+      "dependentId": "/svelte-i18n/3.4.0",
+      "name": "estree-walker",
+      "rawSpec": "^2.0.1"
+    }
+  },
+  "112 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/intl-messageformat/9.12.0",
+    "wanted": {
+      "dependentId": "/svelte-i18n/3.4.0",
+      "name": "intl-messageformat",
+      "rawSpec": "^9.3.15"
+    }
+  },
+  "113 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/sade/1.8.1",
+    "wanted": {
+      "dependentId": "/svelte-i18n/3.4.0",
+      "name": "sade",
+      "rawSpec": "^1.7.4"
+    }
+  },
+  "114 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tiny-glob/0.2.9",
+    "wanted": {
+      "dependentId": "/svelte-i18n/3.4.0",
+      "name": "tiny-glob",
+      "rawSpec": "^0.2.6"
+    }
+  },
+  "115 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/pug/2.0.6",
+    "wanted": {
+      "dependentId": "/svelte-preprocess/4.10.6",
+      "name": "@types/pug",
+      "rawSpec": "^2.0.4"
+    }
+  },
+  "116 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/sass/1.43.1",
+    "wanted": {
+      "dependentId": "/svelte-preprocess/4.10.6",
+      "name": "@types/sass",
+      "rawSpec": "^1.16.0"
+    }
+  },
+  "117 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/detect-indent/6.1.0",
+    "wanted": {
+      "dependentId": "/svelte-preprocess/4.10.6",
+      "name": "detect-indent",
+      "rawSpec": "^6.0.0"
+    }
+  },
+  "118 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/magic-string/0.25.9",
+    "wanted": {
+      "dependentId": "/svelte-preprocess/4.10.6",
+      "name": "magic-string",
+      "rawSpec": "^0.25.7"
+    }
+  },
+  "119 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/sorcery/0.10.0",
+    "wanted": {
+      "dependentId": "/svelte-preprocess/4.10.6",
+      "name": "sorcery",
+      "rawSpec": "^0.10.0"
+    }
+  },
+  "120 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/strip-indent/3.0.0",
+    "wanted": {
+      "dependentId": "/svelte-preprocess/4.10.6",
+      "name": "strip-indent",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "121 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/dedent-js/1.0.1",
+    "wanted": {
+      "dependentId": "/svelte2tsx/0.5.9",
+      "name": "dedent-js",
+      "rawSpec": "^1.0.1"
+    }
+  },
+  "122 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/pascal-case/3.1.2",
+    "wanted": {
+      "dependentId": "/svelte2tsx/0.5.9",
+      "name": "pascal-case",
+      "rawSpec": "^3.1.1"
+    }
+  },
+  "123 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/process/0.11.10",
+    "wanted": {
+      "dependentId": "/path/0.12.7",
+      "name": "process",
+      "rawSpec": "^0.11.1"
+    }
+  },
+  "124 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/util/0.10.4",
+    "wanted": {
+      "dependentId": "/path/0.12.7",
+      "name": "util",
+      "rawSpec": "^0.10.3"
+    }
+  },
+  "125 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@sveltejs/adapter-netlify/1.0.0-next.55",
+    "wanted": {
+      "dependentId": "/@sveltejs/adapter-auto/1.0.0-next.39",
+      "name": "@sveltejs/adapter-netlify",
+      "rawSpec": "1.0.0-next.55"
+    }
+  },
+  "126 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/adapter-netlify/1.0.0-next.55",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "127 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@sveltejs/adapter-cloudflare/1.0.0-next.18",
+    "wanted": {
+      "dependentId": "/@sveltejs/adapter-auto/1.0.0-next.39",
+      "name": "@sveltejs/adapter-cloudflare",
+      "rawSpec": "1.0.0-next.18"
+    }
+  },
+  "128 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/adapter-cloudflare/1.0.0-next.18",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "129 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@sveltejs/adapter-vercel/1.0.0-next.50",
+    "wanted": {
+      "dependentId": "/@sveltejs/adapter-auto/1.0.0-next.39",
+      "name": "@sveltejs/adapter-vercel",
+      "rawSpec": "1.0.0-next.50"
+    }
+  },
+  "130 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/adapter-vercel/1.0.0-next.50",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "131 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/worktop/0.8.0-next.12",
+    "wanted": {
+      "dependentId": "/@sveltejs/adapter-cloudflare/1.0.0-next.18",
+      "name": "worktop",
+      "rawSpec": "0.8.0-next.12"
+    }
+  },
+  "132 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/worktop/0.8.0-next.12",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "133 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@sveltejs/kit/1.0.0-next.321",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "134 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/types/5.21.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "135 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/types/5.21.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "136 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/typescript-estree/5.21.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "137 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/typescript-estree/5.21.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "138 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/scope-manager/5.21.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "139 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/scope-manager/5.21.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "140 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/debug/4.3.4",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "141 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/debug/4.3.4",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "142 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/types/5.21.0",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/typescript-estree/5.21.0",
+      "name": "@typescript-eslint/types",
+      "rawSpec": "5.21.0"
+    }
+  },
+  "143 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/visitor-keys/5.21.0",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/typescript-estree/5.21.0",
+      "name": "@typescript-eslint/visitor-keys",
+      "rawSpec": "5.21.0"
+    }
+  },
+  "144 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/debug/4.3.4",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/typescript-estree/5.21.0",
+      "name": "debug",
+      "rawSpec": "^4.3.2"
+    }
+  },
+  "145 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/globby/11.1.0",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/typescript-estree/5.21.0",
+      "name": "globby",
+      "rawSpec": "^11.0.4"
+    }
+  },
+  "146 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-glob/4.0.3",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/typescript-estree/5.21.0",
+      "name": "is-glob",
+      "rawSpec": "^4.0.3"
+    }
+  },
+  "147 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/semver/7.3.7",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/typescript-estree/5.21.0",
+      "name": "semver",
+      "rawSpec": "^7.3.5"
+    }
+  },
+  "148 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tsutils/3.21.0",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/typescript-estree/5.21.0",
+      "name": "tsutils",
+      "rawSpec": "^3.21.0"
+    }
+  },
+  "149 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/types/5.21.0",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/scope-manager/5.21.0",
+      "name": "@typescript-eslint/types",
+      "rawSpec": "5.21.0"
+    }
+  },
+  "150 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/visitor-keys/5.21.0",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/scope-manager/5.21.0",
+      "name": "@typescript-eslint/visitor-keys",
+      "rawSpec": "5.21.0"
+    }
+  },
+  "151 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ms/2.1.2",
+    "wanted": {
+      "dependentId": "/debug/4.3.4",
+      "name": "ms",
+      "rawSpec": "2.1.2"
+    }
+  },
+  "152 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@eslint/eslintrc/1.2.2",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "153 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@eslint/eslintrc/1.2.2",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "154 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@humanwhocodes/config-array/0.9.5",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "155 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@humanwhocodes/config-array/0.9.5",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "156 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chalk/4.1.2",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "157 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chalk/4.1.2",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "158 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ajv/6.12.6",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "159 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ajv/6.12.6",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "160 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/escape-string-regexp/4.0.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "161 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/escape-string-regexp/4.0.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "162 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/doctrine/3.0.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "163 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/doctrine/3.0.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "164 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-scope/7.1.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "165 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-scope/7.1.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "166 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cross-spawn/7.0.3",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "167 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cross-spawn/7.0.3",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "168 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/esquery/1.4.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "169 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/esquery/1.4.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "170 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-visitor-keys/3.3.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "171 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-visitor-keys/3.3.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "172 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-utils/3.0.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "173 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-utils/3.0.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "174 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/esutils/2.0.3",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "175 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/esutils/2.0.3",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "176 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/chokidar/3.5.3",
+    "wanted": {
+      "dependentId": "/@sveltejs/kit/1.0.0-next.321",
+      "name": "chokidar",
+      "rawSpec": "^3.5.3"
+    }
+  },
+  "177 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chokidar/3.5.3",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "178 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/file-entry-cache/6.0.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "179 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/file-entry-cache/6.0.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "180 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fast-deep-equal/3.1.3",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "181 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fast-deep-equal/3.1.3",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "182 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/espree/9.3.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "183 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/espree/9.3.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "184 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/globals/13.13.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "185 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/globals/13.13.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "186 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ignore/5.2.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "187 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ignore/5.2.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "188 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/functional-red-black-tree/1.0.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "189 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/functional-red-black-tree/1.0.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "190 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/glob-parent/6.0.2",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "191 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/glob-parent/6.0.2",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "192 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/import-fresh/3.3.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "193 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/import-fresh/3.3.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "194 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/imurmurhash/0.1.4",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "195 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/imurmurhash/0.1.4",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "196 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-glob/4.0.3",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "197 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/is-glob/4.0.3",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "198 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/js-yaml/4.1.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "199 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/js-yaml/4.1.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "200 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/json-stable-stringify-without-jsonify/1.0.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "201 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/json-stable-stringify-without-jsonify/1.0.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "202 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/lodash.merge/4.6.2",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "203 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/lodash.merge/4.6.2",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "204 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/levn/0.4.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "205 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/levn/0.4.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "206 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/natural-compare/1.4.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "207 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/natural-compare/1.4.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "208 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/minimatch/3.1.2",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "209 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/minimatch/3.1.2",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "210 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/optionator/0.9.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "211 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/optionator/0.9.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "212 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/strip-ansi/6.0.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "213 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/strip-ansi/6.0.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "214 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/v8-compile-cache/2.3.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "215 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/v8-compile-cache/2.3.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "216 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/strip-json-comments/3.1.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "217 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/strip-json-comments/3.1.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "218 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/regexpp/3.2.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "219 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/regexpp/3.2.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "220 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/type-utils/5.21.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "221 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/type-utils/5.21.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "222 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/utils/5.21.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "223 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@typescript-eslint/utils/5.21.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "224 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/semver/7.3.7",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "225 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/semver/7.3.7",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "226 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/picocolors/1.0.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "227 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/picocolors/1.0.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "228 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chokidar/3.5.3",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "229 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/text-table/0.2.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "230 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/text-table/0.2.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "231 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ajv/6.12.6",
+    "wanted": {
+      "dependentId": "/@eslint/eslintrc/1.2.2",
+      "name": "ajv",
+      "rawSpec": "^6.12.4"
+    }
+  },
+  "232 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/debug/4.3.4",
+    "wanted": {
+      "dependentId": "/@eslint/eslintrc/1.2.2",
+      "name": "debug",
+      "rawSpec": "^4.3.2"
+    }
+  },
+  "233 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/espree/9.3.1",
+    "wanted": {
+      "dependentId": "/@eslint/eslintrc/1.2.2",
+      "name": "espree",
+      "rawSpec": "^9.3.1"
+    }
+  },
+  "234 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/globals/13.13.0",
+    "wanted": {
+      "dependentId": "/@eslint/eslintrc/1.2.2",
+      "name": "globals",
+      "rawSpec": "^13.9.0"
+    }
+  },
+  "235 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ignore/5.2.0",
+    "wanted": {
+      "dependentId": "/@eslint/eslintrc/1.2.2",
+      "name": "ignore",
+      "rawSpec": "^5.2.0"
+    }
+  },
+  "236 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/import-fresh/3.3.0",
+    "wanted": {
+      "dependentId": "/@eslint/eslintrc/1.2.2",
+      "name": "import-fresh",
+      "rawSpec": "^3.2.1"
+    }
+  },
+  "237 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/js-yaml/4.1.0",
+    "wanted": {
+      "dependentId": "/@eslint/eslintrc/1.2.2",
+      "name": "js-yaml",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "238 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/minimatch/3.1.2",
+    "wanted": {
+      "dependentId": "/@eslint/eslintrc/1.2.2",
+      "name": "minimatch",
+      "rawSpec": "^3.0.4"
+    }
+  },
+  "239 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/strip-json-comments/3.1.1",
+    "wanted": {
+      "dependentId": "/@eslint/eslintrc/1.2.2",
+      "name": "strip-json-comments",
+      "rawSpec": "^3.1.1"
+    }
+  },
+  "240 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@humanwhocodes/object-schema/1.2.1",
+    "wanted": {
+      "dependentId": "/@humanwhocodes/config-array/0.9.5",
+      "name": "@humanwhocodes/object-schema",
+      "rawSpec": "^1.2.1"
+    }
+  },
+  "241 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/debug/4.3.4",
+    "wanted": {
+      "dependentId": "/@humanwhocodes/config-array/0.9.5",
+      "name": "debug",
+      "rawSpec": "^4.1.1"
+    }
+  },
+  "242 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/minimatch/3.1.2",
+    "wanted": {
+      "dependentId": "/@humanwhocodes/config-array/0.9.5",
+      "name": "minimatch",
+      "rawSpec": "^3.0.4"
+    }
+  },
+  "243 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ansi-styles/4.3.0",
+    "wanted": {
+      "dependentId": "/chalk/4.1.2",
+      "name": "ansi-styles",
+      "rawSpec": "^4.1.0"
+    }
+  },
+  "244 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/supports-color/7.2.0",
+    "wanted": {
+      "dependentId": "/chalk/4.1.2",
+      "name": "supports-color",
+      "rawSpec": "^7.1.0"
+    }
+  },
+  "245 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fast-deep-equal/3.1.3",
+    "wanted": {
+      "dependentId": "/ajv/6.12.6",
+      "name": "fast-deep-equal",
+      "rawSpec": "^3.1.1"
+    }
+  },
+  "246 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fast-json-stable-stringify/2.1.0",
+    "wanted": {
+      "dependentId": "/ajv/6.12.6",
+      "name": "fast-json-stable-stringify",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "247 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/json-schema-traverse/0.4.1",
+    "wanted": {
+      "dependentId": "/ajv/6.12.6",
+      "name": "json-schema-traverse",
+      "rawSpec": "^0.4.1"
+    }
+  },
+  "248 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/uri-js/4.4.1",
+    "wanted": {
+      "dependentId": "/ajv/6.12.6",
+      "name": "uri-js",
+      "rawSpec": "^4.2.2"
+    }
+  },
+  "249 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/esutils/2.0.3",
+    "wanted": {
+      "dependentId": "/doctrine/3.0.0",
+      "name": "esutils",
+      "rawSpec": "^2.0.2"
+    }
+  },
+  "250 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/esrecurse/4.3.0",
+    "wanted": {
+      "dependentId": "/eslint-scope/7.1.1",
+      "name": "esrecurse",
+      "rawSpec": "^4.3.0"
+    }
+  },
+  "251 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/estraverse/5.3.0",
+    "wanted": {
+      "dependentId": "/eslint-scope/7.1.1",
+      "name": "estraverse",
+      "rawSpec": "^5.2.0"
+    }
+  },
+  "252 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/path-key/3.1.1",
+    "wanted": {
+      "dependentId": "/cross-spawn/7.0.3",
+      "name": "path-key",
+      "rawSpec": "^3.1.0"
+    }
+  },
+  "253 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/shebang-command/2.0.0",
+    "wanted": {
+      "dependentId": "/cross-spawn/7.0.3",
+      "name": "shebang-command",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "254 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/which/2.0.2",
+    "wanted": {
+      "dependentId": "/cross-spawn/7.0.3",
+      "name": "which",
+      "rawSpec": "^2.0.1"
+    }
+  },
+  "255 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/estraverse/5.3.0",
+    "wanted": {
+      "dependentId": "/esquery/1.4.0",
+      "name": "estraverse",
+      "rawSpec": "^5.1.0"
+    }
+  },
+  "256 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-visitor-keys/2.1.0",
+    "wanted": {
+      "dependentId": "/eslint-utils/3.0.0",
+      "name": "eslint-visitor-keys",
+      "rawSpec": "^2.0.0"
+    }
+  },
+  "257 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/flat-cache/3.0.4",
+    "wanted": {
+      "dependentId": "/file-entry-cache/6.0.1",
+      "name": "flat-cache",
+      "rawSpec": "^3.0.4"
+    }
+  },
+  "258 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/acorn/8.7.1",
+    "wanted": {
+      "dependentId": "/espree/9.3.1",
+      "name": "acorn",
+      "rawSpec": "^8.7.0"
+    }
+  },
+  "259 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/acorn-jsx/5.3.2",
+    "wanted": {
+      "dependentId": "/espree/9.3.1",
+      "name": "acorn-jsx",
+      "rawSpec": "^5.3.1"
+    }
+  },
+  "260 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-visitor-keys/3.3.0",
+    "wanted": {
+      "dependentId": "/espree/9.3.1",
+      "name": "eslint-visitor-keys",
+      "rawSpec": "^3.3.0"
+    }
+  },
+  "261 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/type-fest/0.20.2",
+    "wanted": {
+      "dependentId": "/globals/13.13.0",
+      "name": "type-fest",
+      "rawSpec": "^0.20.2"
+    }
+  },
+  "262 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-glob/4.0.3",
+    "wanted": {
+      "dependentId": "/glob-parent/6.0.2",
+      "name": "is-glob",
+      "rawSpec": "^4.0.3"
+    }
+  },
+  "263 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/parent-module/1.0.1",
+    "wanted": {
+      "dependentId": "/import-fresh/3.3.0",
+      "name": "parent-module",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "264 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/resolve-from/4.0.0",
+    "wanted": {
+      "dependentId": "/import-fresh/3.3.0",
+      "name": "resolve-from",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "265 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/is-extglob/2.1.1",
+    "wanted": {
+      "dependentId": "/is-glob/4.0.3",
+      "name": "is-extglob",
+      "rawSpec": "^2.1.1"
+    }
+  },
+  "266 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/argparse/2.0.1",
+    "wanted": {
+      "dependentId": "/js-yaml/4.1.0",
+      "name": "argparse",
+      "rawSpec": "^2.0.1"
+    }
+  },
+  "267 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prelude-ls/1.2.1",
+    "wanted": {
+      "dependentId": "/levn/0.4.1",
+      "name": "prelude-ls",
+      "rawSpec": "^1.2.1"
+    }
+  },
+  "268 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/type-check/0.4.0",
+    "wanted": {
+      "dependentId": "/levn/0.4.1",
+      "name": "type-check",
+      "rawSpec": "~0.4.0"
+    }
+  },
+  "269 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/brace-expansion/1.1.11",
+    "wanted": {
+      "dependentId": "/minimatch/3.1.2",
+      "name": "brace-expansion",
+      "rawSpec": "^1.1.7"
+    }
+  },
+  "270 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prelude-ls/1.2.1",
+    "wanted": {
+      "dependentId": "/optionator/0.9.1",
+      "name": "prelude-ls",
+      "rawSpec": "^1.2.1"
+    }
+  },
+  "271 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/deep-is/0.1.4",
+    "wanted": {
+      "dependentId": "/optionator/0.9.1",
+      "name": "deep-is",
+      "rawSpec": "^0.1.3"
+    }
+  },
+  "272 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/word-wrap/1.2.3",
+    "wanted": {
+      "dependentId": "/optionator/0.9.1",
+      "name": "word-wrap",
+      "rawSpec": "^1.2.3"
+    }
+  },
+  "273 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/type-check/0.4.0",
+    "wanted": {
+      "dependentId": "/optionator/0.9.1",
+      "name": "type-check",
+      "rawSpec": "^0.4.0"
+    }
+  },
+  "274 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/levn/0.4.1",
+    "wanted": {
+      "dependentId": "/optionator/0.9.1",
+      "name": "levn",
+      "rawSpec": "^0.4.1"
+    }
+  },
+  "275 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/fast-levenshtein/2.0.6",
+    "wanted": {
+      "dependentId": "/optionator/0.9.1",
+      "name": "fast-levenshtein",
+      "rawSpec": "^2.0.6"
+    }
+  },
+  "276 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ansi-regex/5.0.1",
+    "wanted": {
+      "dependentId": "/strip-ansi/6.0.1",
+      "name": "ansi-regex",
+      "rawSpec": "^5.0.1"
+    }
+  },
+  "277 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tsutils/3.21.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "278 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tsutils/3.21.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "279 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/utils/5.21.0",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/type-utils/5.21.0",
+      "name": "@typescript-eslint/utils",
+      "rawSpec": "5.21.0"
+    }
+  },
+  "280 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/debug/4.3.4",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/type-utils/5.21.0",
+      "name": "debug",
+      "rawSpec": "^4.3.2"
+    }
+  },
+  "281 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tsutils/3.21.0",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/type-utils/5.21.0",
+      "name": "tsutils",
+      "rawSpec": "^3.21.0"
+    }
+  },
+  "282 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/json-schema/7.0.11",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/utils/5.21.0",
+      "name": "@types/json-schema",
+      "rawSpec": "^7.0.9"
+    }
+  },
+  "283 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/scope-manager/5.21.0",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/utils/5.21.0",
+      "name": "@typescript-eslint/scope-manager",
+      "rawSpec": "5.21.0"
+    }
+  },
+  "284 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/types/5.21.0",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/utils/5.21.0",
+      "name": "@typescript-eslint/types",
+      "rawSpec": "5.21.0"
+    }
+  },
+  "285 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@typescript-eslint/typescript-estree/5.21.0",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/utils/5.21.0",
+      "name": "@typescript-eslint/typescript-estree",
+      "rawSpec": "5.21.0"
+    }
+  },
+  "286 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-scope/5.1.1",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/utils/5.21.0",
+      "name": "eslint-scope",
+      "rawSpec": "^5.1.1"
+    }
+  },
+  "287 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-utils/3.0.0",
+    "wanted": {
+      "dependentId": "/@typescript-eslint/utils/5.21.0",
+      "name": "eslint-utils",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "288 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/lru-cache/6.0.0",
+    "wanted": {
+      "dependentId": "/semver/7.3.7",
+      "name": "lru-cache",
+      "rawSpec": "^6.0.0"
+    }
+  },
+  "289 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tslib/1.14.1",
+    "wanted": {
+      "dependentId": "/tsutils/3.21.0",
+      "name": "tslib",
+      "rawSpec": "^1.8.1"
+    }
+  },
+  "290 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/sade/1.8.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "291 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/sade/1.8.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "292 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fast-glob/3.2.11",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "293 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/fast-glob/3.2.11",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "294 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/deepmerge/4.2.2",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "295 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/deepmerge/4.2.2",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "296 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/source-map/0.7.3",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "297 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/source-map/0.7.3",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "298 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/mri/1.2.0",
+    "wanted": {
+      "dependentId": "/sade/1.8.1",
+      "name": "mri",
+      "rawSpec": "^1.1.0"
+    }
+  },
+  "299 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@nodelib/fs.stat/2.0.5",
+    "wanted": {
+      "dependentId": "/fast-glob/3.2.11",
+      "name": "@nodelib/fs.stat",
+      "rawSpec": "^2.0.2"
+    }
+  },
+  "300 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@nodelib/fs.walk/1.2.8",
+    "wanted": {
+      "dependentId": "/fast-glob/3.2.11",
+      "name": "@nodelib/fs.walk",
+      "rawSpec": "^1.2.3"
+    }
+  },
+  "301 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/glob-parent/5.1.2",
+    "wanted": {
+      "dependentId": "/fast-glob/3.2.11",
+      "name": "glob-parent",
+      "rawSpec": "^5.1.2"
+    }
+  },
+  "302 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/merge2/1.4.1",
+    "wanted": {
+      "dependentId": "/fast-glob/3.2.11",
+      "name": "merge2",
+      "rawSpec": "^1.3.0"
+    }
+  },
+  "303 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/micromatch/4.0.5",
+    "wanted": {
+      "dependentId": "/fast-glob/3.2.11",
+      "name": "micromatch",
+      "rawSpec": "^4.0.4"
+    }
+  },
+  "304 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/estree-walker/2.0.2",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "305 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/estree-walker/2.0.2",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "306 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/intl-messageformat/9.12.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "307 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/intl-messageformat/9.12.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "308 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/pug/2.0.6",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "309 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/pug/2.0.6",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "310 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/detect-indent/6.1.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "311 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/detect-indent/6.1.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "312 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tiny-glob/0.2.9",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "313 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tiny-glob/0.2.9",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "314 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@formatjs/ecma402-abstract/1.11.4",
+    "wanted": {
+      "dependentId": "/intl-messageformat/9.12.0",
+      "name": "@formatjs/ecma402-abstract",
+      "rawSpec": "1.11.4"
+    }
+  },
+  "315 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@formatjs/fast-memoize/1.2.1",
+    "wanted": {
+      "dependentId": "/intl-messageformat/9.12.0",
+      "name": "@formatjs/fast-memoize",
+      "rawSpec": "1.2.1"
+    }
+  },
+  "316 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@formatjs/icu-messageformat-parser/2.0.19",
+    "wanted": {
+      "dependentId": "/intl-messageformat/9.12.0",
+      "name": "@formatjs/icu-messageformat-parser",
+      "rawSpec": "2.0.19"
+    }
+  },
+  "317 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tslib/2.4.0",
+    "wanted": {
+      "dependentId": "/intl-messageformat/9.12.0",
+      "name": "tslib",
+      "rawSpec": "^2.1.0"
+    }
+  },
+  "318 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/globalyzer/0.1.0",
+    "wanted": {
+      "dependentId": "/tiny-glob/0.2.9",
+      "name": "globalyzer",
+      "rawSpec": "0.1.0"
+    }
+  },
+  "319 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/globrex/0.1.2",
+    "wanted": {
+      "dependentId": "/tiny-glob/0.2.9",
+      "name": "globrex",
+      "rawSpec": "^0.1.2"
+    }
+  },
+  "320 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/sorcery/0.10.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "321 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/sorcery/0.10.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "322 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/sade/1.8.1",
+    "wanted": {
+      "dependentId": "/@sveltejs/kit/1.0.0-next.321",
+      "name": "sade",
+      "rawSpec": "^1.7.4"
+    }
+  },
+  "323 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/magic-string/0.25.9",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "324 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/magic-string/0.25.9",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "325 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/sass/1.43.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "326 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/sass/1.43.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "327 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/strip-indent/3.0.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "328 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/strip-indent/3.0.0",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "329 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/buffer-crc32/0.2.13",
+    "wanted": {
+      "dependentId": "/sorcery/0.10.0",
+      "name": "buffer-crc32",
+      "rawSpec": "^0.2.5"
+    }
+  },
+  "330 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/minimist/1.2.6",
+    "wanted": {
+      "dependentId": "/sorcery/0.10.0",
+      "name": "minimist",
+      "rawSpec": "^1.2.0"
+    }
+  },
+  "331 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/sander/0.5.1",
+    "wanted": {
+      "dependentId": "/sorcery/0.10.0",
+      "name": "sander",
+      "rawSpec": "^0.5.0"
+    }
+  },
+  "332 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/sourcemap-codec/1.4.8",
+    "wanted": {
+      "dependentId": "/sorcery/0.10.0",
+      "name": "sourcemap-codec",
+      "rawSpec": "^1.3.0"
+    }
+  },
+  "333 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/sourcemap-codec/1.4.8",
+    "wanted": {
+      "dependentId": "/magic-string/0.25.9",
+      "name": "sourcemap-codec",
+      "rawSpec": "^1.4.8"
+    }
+  },
+  "334 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/node/17.0.26",
+    "wanted": {
+      "dependentId": "/@types/sass/1.43.1",
+      "name": "@types/node",
+      "rawSpec": "*"
+    }
+  },
+  "335 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/min-indent/1.0.1",
+    "wanted": {
+      "dependentId": "/strip-indent/3.0.0",
+      "name": "min-indent",
+      "rawSpec": "^1.0.0"
+    }
+  },
+  "336 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/process/0.11.10",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "337 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/process/0.11.10",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "338 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/pascal-case/3.1.2",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "339 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/pascal-case/3.1.2",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "340 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/dedent-js/1.0.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "found_in_store"
+  },
+  "341 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/dedent-js/1.0.1",
+    "requester": "/Users/damien/Desktop/svelte-i18n-slots",
+    "status": "resolved"
+  },
+  "342 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/no-case/3.0.4",
+    "wanted": {
+      "dependentId": "/pascal-case/3.1.2",
+      "name": "no-case",
+      "rawSpec": "^3.0.4"
+    }
+  },
+  "343 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tslib/2.4.0",
+    "wanted": {
+      "dependentId": "/pascal-case/3.1.2",
+      "name": "tslib",
+      "rawSpec": "^2.0.3"
+    }
+  },
+  "344 warn pnpm:install-check": {
+    "message": "Unsupported engine for registry.npmjs.org/@sveltejs/vite-plugin-svelte/1.0.0-next.41: wanted: {\"node\":\"^14.13.1 || >= 16\"} (current: {\"node\":\"v15.14.0\",\"pnpm\":\"6.32.6\"})",
     "prefix": "/Users/damien/Desktop/svelte-i18n-slots"
   },
-  "38 error pnpm": {
+  "345 error pnpm": {
     "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
-    "packageId": "registry.npmjs.org/@typescript-eslint/parser/5.20.0",
+    "packageId": "registry.npmjs.org/@sveltejs/vite-plugin-svelte/1.0.0-next.41",
     "wanted": {
-      "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+      "node": "^14.13.1 || >= 16"
     },
     "current": {
       "node": "v15.14.0",
       "pnpm": "6.32.6"
     },
-    "pkgsStack": [],
+    "pkgsStack": [
+      {
+        "id": "registry.npmjs.org/@sveltejs/kit/1.0.0-next.321",
+        "name": "@sveltejs/kit",
+        "version": "1.0.0-next.321"
+      }
+    ],
     "err": {
       "name": "pnpm",
-      "message": "Unsupported engine for registry.npmjs.org/@typescript-eslint/parser/5.20.0: wanted: {\"node\":\"^12.22.0 || ^14.17.0 || >=16.0.0\"} (current: {\"node\":\"v15.14.0\",\"pnpm\":\"6.32.6\"})",
+      "message": "Unsupported engine for registry.npmjs.org/@sveltejs/vite-plugin-svelte/1.0.0-next.41: wanted: {\"node\":\"^14.13.1 || >= 16\"} (current: {\"node\":\"v15.14.0\",\"pnpm\":\"6.32.6\"})",
       "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
-      "stack": "pnpm: Unsupported engine for registry.npmjs.org/@typescript-eslint/parser/5.20.0: wanted: {\"node\":\"^12.22.0 || ^14.17.0 || >=16.0.0\"} (current: {\"node\":\"v15.14.0\",\"pnpm\":\"6.32.6\"})\n    at checkEngine (/Users/damien/.nvm/versions/node/v15.14.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.6/node_modules/pnpm/dist/pnpm.cjs:41290:16)\n    at checkPackage (/Users/damien/.nvm/versions/node/v15.14.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.6/node_modules/pnpm/dist/pnpm.cjs:43386:104)\n    at packageIsInstallable (/Users/damien/.nvm/versions/node/v15.14.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.6/node_modules/pnpm/dist/pnpm.cjs:43356:20)\n    at resolveAndFetch (/Users/damien/.nvm/versions/node/v15.14.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.6/node_modules/pnpm/dist/pnpm.cjs:74519:117)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:94:5)\n    at async resolveDependency (/Users/damien/.nvm/versions/node/v15.14.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.6/node_modules/pnpm/dist/pnpm.cjs:116038:23)\n    at async resolveDependenciesOfDependency (/Users/damien/.nvm/versions/node/v15.14.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.6/node_modules/pnpm/dist/pnpm.cjs:115873:39)\n    at async Promise.all (index 3)\n    at async resolveDependencies (/Users/damien/.nvm/versions/node/v15.14.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.6/node_modules/pnpm/dist/pnpm.cjs:115840:29)"
+      "stack": "pnpm: Unsupported engine for registry.npmjs.org/@sveltejs/vite-plugin-svelte/1.0.0-next.41: wanted: {\"node\":\"^14.13.1 || >= 16\"} (current: {\"node\":\"v15.14.0\",\"pnpm\":\"6.32.6\"})\n    at checkEngine (/Users/damien/.nvm/versions/node/v15.14.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.6/node_modules/pnpm/dist/pnpm.cjs:41290:16)\n    at checkPackage (/Users/damien/.nvm/versions/node/v15.14.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.6/node_modules/pnpm/dist/pnpm.cjs:43386:104)\n    at packageIsInstallable (/Users/damien/.nvm/versions/node/v15.14.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.6/node_modules/pnpm/dist/pnpm.cjs:43356:20)\n    at resolveAndFetch (/Users/damien/.nvm/versions/node/v15.14.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.6/node_modules/pnpm/dist/pnpm.cjs:74519:117)\n    at processTicksAndRejections (node:internal/process/task_queues:94:5)\n    at async resolveDependency (/Users/damien/.nvm/versions/node/v15.14.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.6/node_modules/pnpm/dist/pnpm.cjs:116038:23)\n    at async resolveDependenciesOfDependency (/Users/damien/.nvm/versions/node/v15.14.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.6/node_modules/pnpm/dist/pnpm.cjs:115873:39)\n    at async Promise.all (index 0)\n    at async resolveDependencies (/Users/damien/.nvm/versions/node/v15.14.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.6/node_modules/pnpm/dist/pnpm.cjs:115840:29)\n    at async resolveChildren (/Users/damien/.nvm/versions/node/v15.14.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.6/node_modules/pnpm/dist/pnpm.cjs:115905:24)"
     }
   }
 }

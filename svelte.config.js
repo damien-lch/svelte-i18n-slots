@@ -16,7 +16,7 @@ const config = {
 					'$lib': path.resolve("./src/lib"),
 					'@': path.resolve("./src")
 				}
-			}
+			},
 		}
 	},
 
