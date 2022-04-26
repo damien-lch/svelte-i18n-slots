@@ -12,7 +12,7 @@ pnpm install @neiwad/svelte-i18n-slots
 {
 	"string": "This is example of how to use {slot1} as i18n {slot2}.",
 	"slot1Text": "slot",
-    "slort2Text": "variable"
+    "slot2Text": "variable"
 }
 ```
 ### Svelte Component
